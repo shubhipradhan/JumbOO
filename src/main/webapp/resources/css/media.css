@@ -1,0 +1,79 @@
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:900px){
+	.hoc{max-width:90%;}
+
+	#topbar{}
+
+	#header{padding:30px 0;}
+	#header #logo{margin-top:3px;}
+
+	#mainav{}
+	#mainav ul{display:none;}
+	#mainav form{display:block;}
+
+	#breadcrumb{}
+
+	.container{}
+	#comments input[type="reset"]{margin-top:10px;}
+	.pagination li{display:inline-block; margin:0 5px 5px 0;}
+
+	#footer{}
+
+	#copyright{}
+	#copyright p:first-of-type{margin-bottom:10px;}
+}
+@media screen and (max-width:750px){
+	.flex-direction-nav .flex-prev, .flex-direction-nav .flex-next{display:none;}
+	.flex-control-nav{display:block;}
+
+	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+	.fl_left, .fl_right{display:block; float:none;}
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+
+	#topbar{text-align:center;}
+	#topbar ul{margin:0 0 15px 0;}
+	#topbar div:last-child ul{margin:0;}
+
+	#header{text-align:center;}
+	#header #logo{margin:0 0 15px 0;}
+
+	#introblocks > ul > li{margin-bottom:50px;}
+	#introblocks > ul > li:last-child{margin-bottom:0;}
+
+	.container{padding-bottom:50px;}/* Not neccessary - just looks better */
+}
+
+
+@media screen and (max-width:450px){
+	#topbar ul li{margin-bottom:2px; padding-right:0; border-right:none;}
+
+	#pageintro li footer form{max-width:none; width:100%;}
+}
+
+/* Other
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:650px){
+	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable table{margin:0; padding:0; white-space:nowrap;}
+
+	.inline li{display:block; margin-bottom:10px;}
+	.pushright li{margin-right:0;}
+
+	.font-x2{font-size:1.4rem;}
+	.font-x3{font-size:1.6rem;}
+
+	#pageintro li article{max-width:none; width:100%;}
+	#pageintro li .heading{font-size:1.6rem;}
+}
+/* Media Queries
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport{width:device-width;}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px){
+	.hoc{max-width:978px;}
+}
