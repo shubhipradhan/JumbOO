@@ -34,12 +34,6 @@
 
 <!-- USER DEFINE CSS -->
 <link rel="stlesheet" href="resources/css/media.css">
-<link rel="stylesheet" href="resources/css/Navbar.css" />
-
-    <!-- Custom Styling -->
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
 
 </head>
 <body>

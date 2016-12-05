@@ -28,47 +28,40 @@
 <body>
     <%@include file="Header.jsp" %>
     <br>
-    <h1>hello</h1>
-    <div class="container-fluid">
-        <div class="panel panel-success" >
-            
-            <div class="panel-body"align="center">
-                  
-                <div class="container " style="margin-top: 5%; margin-bottom: 10%;">
-    
-                    <div class="panel panel-success" style="max-width: 35%;" align="left">
-                        
-                        <div class="panel-heading form-group">
-                            <b><font color="Black">
-                                Login Form</font> </b>
-                        </div>
-                    
-                        <div class="panel-body" >
-
-                        <form action="LoginServlet" method="post" >
-                            <div class="form-group">
-                                <label>User Name</label> 
-                                <input type="text" class="form-control" name="username"
-                                    placeholder="Enter User Name">
-                                    
-                            </div>
-                            <div class="form-group">
-                                <label>Password</label> 
-                                <input  type="password" class="form-control" name="pass" placeholder="Password">
-                            </div>
-                            <button type="submit" style="width: 100%;" class="btn btn-large btn btn-success btn-lg btn-block" ><b>Login</b></button>
-                                                   
-                        </form>
-						</br>
-                        <div><a href="#">Not yet Login ?</a></div>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </div>
+    <h1>    JumbOO</h1>
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-6">
+    <img src="resources/img/jumboo.jpg" alt="Jumboo_image" class="img-responsive">
     </div>
+    <div class="col-xs-6">
+    <div class="col-xs-4">
+    <form action=UserHome" method="POST">
+    <fieldset><strong>Login Form</strong></fieldset>
+    <br>
+    <br>
+    <div class="form-group">
+    <label>Username : </label>
+    <input type="text" class="form-control" placeholder="USERNAME" required="required">
+    <label>Password</label>  
+    <input type=password" class="form-control" placeholder="PASSWORD" required="required">
+     <div>
+    <label>
+      <input type="checkbox">
+      Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>    
+    </div>
+    </div>
+    </form>
+    
+    </div>
+    </div>
+    <!-- First Row -->
+    </div>
+    <!-- Container Fuild -->
+
     <%@include file="Footer.jsp" %>
 </body>
 </html>

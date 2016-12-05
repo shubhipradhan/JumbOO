@@ -16,15 +16,40 @@ public class PageController  {
 	public String getHome(){
 		return "Home";
 	}
-	
+	@RequestMapping("Registration")
+	public String getRegistration(){
+		return "Registration";
+	}
 	@RequestMapping("Login")
 	public String getLogin(){
 		
 		return "Login";
 	}
+	@RequestMapping("Vendors")
+	public String getVendors(){
+		
+		return "Vendors";
+	}
+	@RequestMapping("HomeJ")
+	public String getHomeJ(){
+		
+		return "HomeJ";
+	}
+	@RequestMapping("AboutUs")
+	public String getAboutUs(){
+		
+		return "AboutUs";
+	}
+	@RequestMapping("History")
+	public String getHistory(){
+		
+		return "History";
+	}
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,HttpServletResponse response){
 		ModelAndView modelandview=new ModelAndView("Home");
 		modelandview.addObject("Login");
+		modelandview.addObject("AboutUs");
+		modelandview.addObject("History");
 		return modelandview;
 	
 	}
