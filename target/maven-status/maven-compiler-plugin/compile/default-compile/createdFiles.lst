@@ -1,0 +1,5 @@
+com\JumbOO\JumbOOBackend\dao\UserDAOImpl.class
+com\JumbOO\JumbOOBackend\model\User.class
+com\JumbOO\JumbOOBackend\dao\UserDAO.class
+com\JumbOO\JumbOOBackend\App.class
+com\JumbOO\JumbOOBackend\config\AppContextConfig.class
